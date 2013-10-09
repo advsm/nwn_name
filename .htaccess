@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteRule ^([0-9]{1,5})/(rulez|sux)$ random.php?id=$1&act=$2
+RewriteRule ^([0-9]{1,5})$ random.php?id=$1
+RewriteRule ^random/?$ random.php
+RewriteRule ^browse/([0-9]{1,2})/?$ browse.php?page=$1
+RewriteRule ^browse/all/?$ browse.php?page=all
+RewriteRule ^browse/?$ browse.php
+RewriteRule ^best/?$ best.php
+RewriteRule ^search/?$ search.php
+RewriteRule ^add/?$ add.php
+RewriteRule ^a\?([a-z&=0-9]+)$ a.php?$1
+RewriteRule ^a$ a.php
+
+

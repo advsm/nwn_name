@@ -1,0 +1,117 @@
+html, body
+{
+  margin: 0px;
+  padding: 0px;
+  background-color: #000000;
+  background-image: url('/back.jpg');
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  color:#000000;
+  font-family: Tahoma, Geneva, Helvetica, Arial, Sans-serif;
+  font-size: 12px;
+}
+
+
+
+#wrap
+{
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+
+#header 
+{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+#header h1
+{
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px;
+}
+
+#mid, #mid_tr, #mid_table
+{
+  width: 778px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#nav
+{
+  padding-top: 8px;
+  text-align: center;
+  clear:both;
+}
+
+#quote
+{
+  padding: 8px;
+  border-style: dotted;
+  border-width: 1px;
+  background-color: #f5f5f5;
+}
+
+#title
+{
+  padding: 6px;
+}
+
+#single_quote
+{
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 6px;
+  width: 780px;
+}
+
+a:hover
+{
+  text-decoration: underline;
+  color: red;
+}
+
+a
+{
+  text-decoration: none;
+  color: black;
+}
+
+#redirect
+{
+  color: blue;
+}  
+
+#search
+{
+  padding: 20px;
+  text-align: center;
+}
+
+#add
+{
+  padding: 20px;
+  text-align: center;
+}
+
+#auth
+{
+  padding: 20px;
+  text-align: center;
+}
+
+textarea 
+{
+  width: 60%;
+}  
+
+
+#vk_comments {
+}

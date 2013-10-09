@@ -1,0 +1,179 @@
+html, body
+{
+  margin: 0px;
+  padding: 0px;
+  background-color: #000000;
+  background-image: url('/back.jpg');
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  color:#000000;
+  font-family: Tahoma, Geneva, Helvetica, Arial, Sans-serif;
+  font-size: 12px;
+}
+
+
+
+#wrap
+{
+  margin: 0 auto;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+
+#header 
+{
+  text-align: center;
+  width: 780px;
+  margin-left: 6px;
+}
+
+#left-border {
+	width: 48px;
+	background-image: url('/static/left2.png');
+	background-color: black;
+	background-repeat: repeat-y;
+	height: 100%;
+}
+
+#right-border {
+	width: 48px;
+	background-image: url('/static/right2.png');
+	background-color: black;
+	background-repeat: repeat-y;
+	height: 100%;
+}
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#mid, #mid_tr, #mid_table
+{
+  vertical-align: top;
+  height: 100%;
+  width: 780px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+#mid {
+	margin-left: 6px;
+	background-color: black;
+}
+
+#nav
+{
+  padding-top: 15px;
+  text-align: center;
+  clear:both;
+  color: white;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+#nav a {
+	color: white;
+	font-size: 17px;
+}
+
+.quote
+{
+  border-width: 0px;
+  background-color: #111111;
+  color: #c49221;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.title
+{
+  margin-left: 30px;
+  color: white;
+  padding: 6px;
+  width: 100%;
+  height: 29px;
+  padding-left: 70px;
+  background-image: url('/static/quote.png');
+  background-repeat: no-repeat;
+}
+
+.title-text {
+	padding-top: 2px;
+	font-size: 17px;
+}
+
+.title a {
+	color: white;
+}
+
+.single_quote
+{
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  width: 786px;
+}
+
+a:hover
+{
+  text-decoration: underline;
+  color: red;
+}
+
+a
+{
+  text-decoration: none;
+  color: black;
+}
+
+#redirect
+{
+  color: blue;
+}  
+
+#search
+{
+  padding: 20px;
+  text-align: center;
+}
+
+#add
+{
+  padding: 20px;
+  text-align: center;
+}
+
+#auth
+{
+  padding: 20px;
+  text-align: center;
+}
+
+textarea 
+{
+  width: 60%;
+}  
+
+
+#vk_comments {
+	margin-left: -6px;
+}
+
+.new {
+	padding-left: 30px;
+	vertical-align: middle;
+	min-height: 34px;
+	display: block;
+	background-image: url('/static/new-small.gif');
+	background-repeat: no-repeat;
+	background-position: left left;
+	float: right;
+}
